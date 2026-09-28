@@ -1,0 +1,19 @@
+{
+  "name": "telegram_dir",
+  "version": "1.0.0",
+  "description": "Telegram webhook server for task, cuti & performance management",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx functions/telegram-webhook-server/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.1",
+    "dotenv": "^18.0.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  }
+}
